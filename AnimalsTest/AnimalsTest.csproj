@@ -16,9 +16,7 @@
       <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
       <_Parameter1>true</_Parameter1>
     </AssemblyAttribute>  
-    <!--<AssemblyAttribute Include="System.CLSCompliant">
-      <_Parameter1>true</_Parameter1>
-    </AssemblyAttribute>-->
+    
     <Compile Update="Program.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
