@@ -35,17 +35,11 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <!--<ItemGroup>
-    <EditorConfigFiles Remove="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig" />
-  </ItemGroup>-->
-
   <ItemGroup>
-    <EditorConfigFiles Include=".editorconfig"/>     
+    <EditorConfigFiles Include=".editorconfig"/>
   </ItemGroup>
-
-  <ItemGroup>
+ <ItemGroup>
     <EditorConfigFiles Remove=".editorconfig" />
-  </ItemGroup>
-
+  </ItemGroup>   
   
 </Project>
