@@ -40,9 +40,9 @@
   </ItemGroup>-->
 
   <ItemGroup>
-    <Content Include="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig">
+    <EditorConfigFiles Include="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </EditorConfigFiles>
   </ItemGroup>
 
   
