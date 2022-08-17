@@ -22,8 +22,6 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Install dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
     - name: Project run
       run: dotnet run
     - name: Test
