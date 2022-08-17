@@ -37,14 +37,14 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <EditorConfigFiles Remove="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
-    <None Include="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig">
+    <Content Include="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 
   
