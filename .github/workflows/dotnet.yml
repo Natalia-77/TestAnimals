@@ -15,7 +15,8 @@ jobs:
     runs-on: windows-latest                              
 
     env:
-      Solution_Name: AnimalsTest.sln                        
+      Solution_Name: AnimalsTest.sln  
+      Project_Path: AnimalTest/AnimalTest/.csproj
       Test_Project_Path: TestAnimals/TestAnimals/.csproj             
      
     steps:
@@ -35,7 +36,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2      
    
     - name: Run
-      run: dotnet run --project $env:Solution_Name
+      run: dotnet run --project $env:Project_Path
    
 
     - name: Test
