@@ -38,10 +38,8 @@
   <ItemGroup>
     <EditorConfigFiles Include=".editorconfig"/>
   </ItemGroup>
-
-  <ItemGroup>
+ <ItemGroup>
     <EditorConfigFiles Remove=".editorconfig" />
-  </ItemGroup>
-
+  </ItemGroup>   
   
 </Project>

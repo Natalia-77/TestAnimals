@@ -10,12 +10,13 @@ jobs:
   build:
     strategy:
       matrix:
-        configuration: [Debug, Release]
+        configuration: [Debug]
 
     runs-on: windows-latest                              
 
     env:
-      Solution_Name: AnimalsTest.sln                        
+      Solution_Name: AnimalsTest.sln  
+      Project_Path: AnimalTest/AnimalTest/.csproj
       Test_Project_Path: TestAnimals/TestAnimals/.csproj             
      
     steps:
@@ -33,6 +34,9 @@ jobs:
   
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1.0.2      
+   
+    - name: Build
+      run: dotnet build
    
 
     - name: Test
