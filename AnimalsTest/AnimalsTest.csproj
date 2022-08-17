@@ -40,9 +40,11 @@
   </ItemGroup>-->
 
   <ItemGroup>
-    <EditorConfigFiles Include="D:\Natalia\Project1\WIT\AnimalsTest\AnimalsTest\.editorconfig">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EditorConfigFiles>
+    <EditorConfigFiles Include=".editorconfig"/>     
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove=".editorconfig" />
   </ItemGroup>
 
   
